@@ -2,7 +2,7 @@
 
 An interactive R Shiny application for differential expression analysis of bulk RNA-seq data. Supports multiple algorithms, quality control visualisations, and cross-algorithm comparison — no coding required.
 
-🚀 **[Launch the App](https://your-username.shinyapps.io/rnaseq-de-app/)**
+🚀 **[Launch the App](https://tjmb03.shinyapps.io/BulkRNAseq_ShinyApp/)**
 
 ---
 
