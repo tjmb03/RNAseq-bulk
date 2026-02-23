@@ -40,6 +40,12 @@ Upload your count matrix and sample metadata, configure your contrast, and explo
 7. **Download** the full results table as a CSV
 
 > **New to the app?** Download the example dataset from [Synapse (syn26448162)](https://www.synapse.org/Synapse:syn26448162) to try it out right away.
+> ### Memory usage on shinyapps.io
+
+This app loads a heavy Bioconductor stack. To avoid out-of-memory (OOM) crashes and "Disconnected from server" errors, the pathway analysis packages (`clusterProfiler`, `enrichplot`, `org.Hs.eg.db`, `org.Mm.eg.db`) are **lazy-loaded** — they are only imported when the user clicks *Run Pathway Analysis*, not at startup. This reduces baseline memory from ~1.2 GB to ~400 MB, keeping the app stable on a 1 GB instance.
+
+Recommended instance size: **1 GB** (set in the shinyapps.io dashboard under App → Settings → General → Instance Size). The free-tier 256 MB instance is not sufficient for this package stack.
+
 
 ---
 
