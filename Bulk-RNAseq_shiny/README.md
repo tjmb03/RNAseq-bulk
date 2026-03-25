@@ -104,5 +104,6 @@ Running multiple algorithms and focusing on consensus genes improves confidence 
 | ggrepel | CRAN | ≥ 0.9 |
 
 ---
-
+> © 2026 tjmb03. This project is provided for educational and methodological
+demonstration purposes. Source code for the interactive dashboards is **available on request** for academic and research use.
 
